@@ -11,4 +11,5 @@ Partial Class DetailsView
         lbl_copy.Text = DateTime.Now.Year
     End Sub
 
+    
 End Class

@@ -1,9 +1,9 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Contact.aspx.vb" Inherits="AboutUs" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Contact.aspx.vb" Inherits="Contact" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
 </head>
@@ -29,6 +29,23 @@
             </div>
 
                 <div id="content">
+                    
+                    <asp:Label ID="Label1" runat="server" Text="Your Email Address:"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Your Message:"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:TextBox ID="TextBox2" runat="server" Height="101px" TextMode="MultiLine" Width="270px"></asp:TextBox>
+                    <br />
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Send Message" />
+                    <br />
+                    <br />
+                    <asp:Label ID="Label3" runat="server"></asp:Label>
                     
                 </div>
             

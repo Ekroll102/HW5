@@ -32,7 +32,10 @@
 
                 <div id="content">
 
-                   <h1 class="centered"> Welcome to Wicked Easy Recipes</h1>
+                   <h1 class="centered"> Welcome to Wicked Easy Recipes </h1>
+       
+                   <h2 class="centeredd"> Using 5 Ingredients or Less!</h2>
+           
                    <p class="centered">
 
                         <img alt="Recipe Book" title="Recipe Book" src="./images/recipe_book.gif" />

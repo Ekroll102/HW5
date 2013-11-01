@@ -36,7 +36,7 @@
                 <asp:Parameter Name="RecipeIngredient2" Type="String" />
                 <asp:Parameter Name="RecipeIngredient3" Type="String" />
                 <asp:Parameter Name="RecipeIngredient4" Type="String" />
-                <asp:Parameter Name="RecipeIngredient5" Type="String" />
+                <asp:Parameter Name="RecipeIngredient5" Type="String" Direction="Input" />
                 <asp:Parameter Name="RecipePreperation" Type="String" />
                 <asp:Parameter Name="RecipeNotes" Type="String" />
                 <asp:Parameter Name="RecipeId" Type="Int32" />
@@ -95,7 +95,9 @@
                 <asp:BoundField DataField="RecipeNotes" HeaderText="Notes" SortExpression="RecipeNotes" />
                 <asp:CommandField ShowInsertButton="True" />
             </Fields>
+             
         </asp:DetailsView>
+               
         <br />
         
         </div>
